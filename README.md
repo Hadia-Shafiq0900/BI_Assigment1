@@ -3,7 +3,7 @@ variant of three diseases information using omim,clinVAR,Ravel,ACMG and finally 
 
 
 
-#PERSON 2
+#PERSON 2 
 ### A phenotype means what we can observe or see about a person having a certain disease because of their genes.
 ## Step 1: Go to OMIM
 It is a scientific database used in genetics and bioinformatics to study human genes and genetic disorders.
