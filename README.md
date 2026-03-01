@@ -12,12 +12,12 @@ We had 6 iseases in the table, we started by seraching the first disease.
 # CYSTIC FIBROSIS:
 
 <img width="388" height="210" alt="image" src="https://github.com/user-attachments/assets/1d0559ca-fbdd-4c73-a8f2-dec829a79c13" />
-## Gene phenotype relationship:
+## Gene phenotype relationship: <br>
 Meconium ileus: this  is a condition where this meconium ( dark, thick, sticky first stool of a newborn baby) becomes abnormally thick and sticky, causing a blockage (obstruction) in the small intestine (ileum) . Occurs in 15–20% of CF patients. No specific CFTR mutations determine MI; modifier genes at 19q13.2-q13.4 are implicated.   
 
 # Marfan Syndrome Project <br>
 
-<img width="397" height="193" alt="image" src="https://github.com/user-attachments/assets/e0307eb7-2124-4978-8836-746f4e1fe443" />
+<img width="397" height="193" alt="image" src="https://github.com/user-attachments/assets/e0307eb7-2124-4978-8836-746f4e1fe443" /> <br>
 
 ## GENE PHENOTYPE RELATIONSHIP:
 
