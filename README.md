@@ -83,7 +83,41 @@ Ellis-van Creveld syndrome is an autosomal recessive skeletal dysplasia caused b
 <img width="1835" height="816" alt="Screenshot 2026-02-28 173200" src="https://github.com/user-attachments/assets/6dd690f6-2f46-422a-aced-1868bb8cf50b" /> <br>
 
 This graph shows that the EVC and EVC2 genes are linked to Ellis-van Creveld syndrome and share a broader relationship with the Short-rib thoracic dysplasia phenotypic series, highlighting that EVC belongs to a family of ciliopathy-related skeletal disorder
+## Variant Annotation Workflow (SnpEff + GRCh38)
+## 1. Update system & install dependencies
+```bash
+sudo apt update && sudo apt upgrade -y
+sudo apt install -y curl wget unzip perl git build-essential default-jre
+```
+## 2. Install Ensembl VEP (optional dependency step used earlier)
+```bash
+wget https://github.com/Ensembl/ensembl-vep/archive/refs/tags/release/116.0.zip
+unzip release_116.0.zip
+cd ensembl-vep-116.0
+perl INSTALL.pl
+```
+## 3. Download SnpEff
+```bash
+cd ~
+wget https://snpeff.blob.core.windows.net/versions/snpEff_latest_core.zip
+unzip snpEff_latest_core.zip
+cd snpEff
+```
+## 4. Download GRCh38 reference database (Ensembl)
+```bash
+java -jar snpEff.jar download GRCh38.mane.1.0.ensembl
+```
+## 5. Annotate VCF file
+```bash
+java -jar snpEff.jar GRCh38.mane.1.0.ensembl input.vcf > annotated.vcf
+```
+## 6. Example 
+```bash
+java -jar snpEff.jar GRCh38.mane.1.0.ensembl special_fixed.vcf > special_annotated.vcf
+```
+## Output
 
+special_annotated.vcf → VCF with functional variant annotations added by SnpEff.
 
 
 
